@@ -20,4 +20,8 @@
     return self;
 }
 
+-(void)saluda:(Enemigo*)otroEnemigo{
+    NSLog(@"%@ dice: hola, %@",self.name, otroEnemigo.name);
+}
+
 @end

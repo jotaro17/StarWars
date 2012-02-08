@@ -7,6 +7,8 @@
 //
 
 #import "Equipo.h"
+#import "Jugador.h"
+#import "Enemigo.h"
 
 @implementation Equipo
 
@@ -24,12 +26,9 @@
 
 - (void)addIntegrante:(id)newIntegrante{
     if(newIntegrante!=nil){
-        //newIntegrante salude a todo el mundo.
         for(id unIntegrante in self.integrantes) {
-            
-            [(Jugador*)newIntegrante salude:unIntegrante];
+            [newIntegrante saluda:unIntegrante];            
         }
-        
         [self.integrantes addObject:newIntegrante];
     }
 }

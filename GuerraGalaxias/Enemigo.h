@@ -13,5 +13,6 @@
 @property (nonatomic, strong) NSString *name;
 
 - (id)initWithName:(NSString *)name;
+- (void)saluda:(Enemigo*)otroEnemigo;
 
 @end

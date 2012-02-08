@@ -20,5 +20,8 @@
     return self;
 }
 
+- (void)saluda:(Jugador*)otroJugador{
+    NSLog(@"%@ dice: hola, %@",self.name, otroJugador.name);
+}
 
 @end
