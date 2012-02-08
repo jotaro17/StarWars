@@ -10,4 +10,16 @@
 
 @implementation Equipo
 
+@synthesize name = _name;
+@synthesize integrantes = _integrantes;
+
+- (id)initWithName:(NSString*) name {
+    self = [super init];
+    if (self) {
+        [self setName:name];
+        [self setIntegrantes:[NSMutableArray array]];
+    }
+    return self;
+}
+
 @end

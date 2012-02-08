@@ -10,4 +10,9 @@
 
 @interface Equipo : NSObject
 
+@property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) NSMutableArray *integrantes;
+
+- (id)initWithName:(NSString*) name;
+
 @end

@@ -10,4 +10,8 @@
 
 @interface Jugador : NSObject
 
+@property (nonatomic, strong) NSString *name;
+
+- (id)initWithName:(NSString*) name;
+
 @end

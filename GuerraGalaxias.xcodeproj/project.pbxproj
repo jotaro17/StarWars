@@ -71,6 +71,8 @@
 		9D2136CF14E312940048D0BF /* StormTrooper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StormTrooper.m; sourceTree = "<group>"; };
 		9D2136D114E312A90048D0BF /* Sith.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sith.h; sourceTree = "<group>"; };
 		9D2136D214E312AA0048D0BF /* Sith.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sith.m; sourceTree = "<group>"; };
+		9D2136D414E3170C0048D0BF /* Pilotar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pilotar.h; sourceTree = "<group>"; };
+		9D2136D514E317180048D0BF /* Pelear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pelear.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,9 @@
 			isa = PBXGroup;
 			children = (
 				9D21369C14E30E760048D0BF /* AppDelegate.h */,
+				9D21369D14E30E760048D0BF /* AppDelegate.m */,
+				9D2136D414E3170C0048D0BF /* Pilotar.h */,
+				9D2136D514E317180048D0BF /* Pelear.h */,
 				9D2136BC14E30F690048D0BF /* Jugador.h */,
 				9D2136BD14E30F690048D0BF /* Jugador.m */,
 				9D2136C514E312490048D0BF /* Wookie.h */,
@@ -147,7 +152,6 @@
 				9D2136D214E312AA0048D0BF /* Sith.m */,
 				9D2136C214E311E80048D0BF /* Equipo.h */,
 				9D2136C314E311E80048D0BF /* Equipo.m */,
-				9D21369D14E30E760048D0BF /* AppDelegate.m */,
 				9D21369414E30E760048D0BF /* Supporting Files */,
 			);
 			path = GuerraGalaxias;
