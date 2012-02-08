@@ -24,4 +24,9 @@
     NSLog(@"%@ dice: hola, %@",self.name, otroEnemigo.name);
 }
 
+- (void)cuentaDominaraGalaxia{
+    NSLog(@"Preparaos, yo sere el dueño de la Galaxia!!!");
+}
+
+
 @end

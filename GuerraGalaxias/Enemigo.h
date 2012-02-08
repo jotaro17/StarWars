@@ -14,5 +14,6 @@
 
 - (id)initWithName:(NSString *)name;
 - (void)saluda:(Enemigo*)otroEnemigo;
+- (void)cuentaDominaraGalaxia;
 
 @end

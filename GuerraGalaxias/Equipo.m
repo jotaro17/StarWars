@@ -27,7 +27,12 @@
 - (void)addIntegrante:(id)newIntegrante{
     if(newIntegrante!=nil){
         for(id unIntegrante in self.integrantes) {
-            [newIntegrante saluda:unIntegrante];            
+            [newIntegrante saluda:unIntegrante];
+            
+            if ([newIntegrante isKindOfClass:[Enemigo class]]) {
+                [newIntegrante cuentaDominaraGalaxia];
+            }
+            
         }
         [self.integrantes addObject:newIntegrante];
     }
