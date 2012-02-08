@@ -12,7 +12,7 @@
 
 @synthesize name = _name;
 
-- (id)initWithName:(NSString*) name {
+- (id)initWithName:(NSString *)name{
     self = [super init];
     if (self) {
         [self setName:name];

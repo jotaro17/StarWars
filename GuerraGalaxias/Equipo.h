@@ -13,6 +13,7 @@
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSMutableArray *integrantes;
 
-- (id)initWithName:(NSString*) name;
+- (id)initWithName:(NSString *)name;
+- (void)addIntegrante:(id)newIntegrante;
 
 @end
