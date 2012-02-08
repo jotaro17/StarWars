@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D21368E14E30E760048D0BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D21368D14E30E760048D0BF /* UIKit.framework */; };
+		9D21369014E30E760048D0BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D21368F14E30E760048D0BF /* Foundation.framework */; };
+		9D21369214E30E760048D0BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D21369114E30E760048D0BF /* CoreGraphics.framework */; };
+		9D21369814E30E760048D0BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D21369614E30E760048D0BF /* InfoPlist.strings */; };
+		9D21369A14E30E760048D0BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D21369914E30E760048D0BF /* main.m */; };
+		9D21369E14E30E760048D0BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D21369D14E30E760048D0BF /* AppDelegate.m */; };
+		9D2136A614E30E760048D0BF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2136A514E30E760048D0BF /* SenTestingKit.framework */; };
+		9D2136A714E30E760048D0BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D21368D14E30E760048D0BF /* UIKit.framework */; };
+		9D2136A814E30E760048D0BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D21368F14E30E760048D0BF /* Foundation.framework */; };
+		9D2136B014E30E760048D0BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D2136AE14E30E760048D0BF /* InfoPlist.strings */; };
+		9D2136B314E30E760048D0BF /* GuerraGalaxiasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2136B214E30E760048D0BF /* GuerraGalaxiasTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D2136A914E30E760048D0BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D21368014E30E760048D0BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D21368814E30E760048D0BF;
+			remoteInfo = GuerraGalaxias;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D21368914E30E760048D0BF /* GuerraGalaxias.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuerraGalaxias.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D21368D14E30E760048D0BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D21368F14E30E760048D0BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D21369114E30E760048D0BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D21369514E30E760048D0BF /* GuerraGalaxias-Info.plist */ = {isa = PBXFileReference; path = "GuerraGalaxias-Info.plist"; sourceTree = "<group>"; };
+		9D21369714E30E760048D0BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D21369914E30E760048D0BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D21369B14E30E760048D0BF /* GuerraGalaxias-Prefix.pch */ = {isa = PBXFileReference; path = "GuerraGalaxias-Prefix.pch"; sourceTree = "<group>"; };
+		9D21369C14E30E760048D0BF /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D21369D14E30E760048D0BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D2136A414E30E760048D0BF /* GuerraGalaxiasTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuerraGalaxiasTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D2136A514E30E760048D0BF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9D2136AD14E30E760048D0BF /* GuerraGalaxiasTests-Info.plist */ = {isa = PBXFileReference; path = "GuerraGalaxiasTests-Info.plist"; sourceTree = "<group>"; };
+		9D2136AF14E30E760048D0BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D2136B114E30E760048D0BF /* GuerraGalaxiasTests.h */ = {isa = PBXFileReference; path = GuerraGalaxiasTests.h; sourceTree = "<group>"; };
+		9D2136B214E30E760048D0BF /* GuerraGalaxiasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuerraGalaxiasTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D21368614E30E760048D0BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D21368E14E30E760048D0BF /* UIKit.framework in Frameworks */,
+				9D21369014E30E760048D0BF /* Foundation.framework in Frameworks */,
+				9D21369214E30E760048D0BF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D2136A014E30E760048D0BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2136A614E30E760048D0BF /* SenTestingKit.framework in Frameworks */,
+				9D2136A714E30E760048D0BF /* UIKit.framework in Frameworks */,
+				9D2136A814E30E760048D0BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D21367E14E30E760048D0BF = {
+			isa = PBXGroup;
+			children = (
+				9D21369314E30E760048D0BF /* GuerraGalaxias */,
+				9D2136AB14E30E760048D0BF /* GuerraGalaxiasTests */,
+				9D21368C14E30E760048D0BF /* Frameworks */,
+				9D21368A14E30E760048D0BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D21368A14E30E760048D0BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D21368914E30E760048D0BF /* GuerraGalaxias.app */,
+				9D2136A414E30E760048D0BF /* GuerraGalaxiasTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D21368C14E30E760048D0BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D21368D14E30E760048D0BF /* UIKit.framework */,
+				9D21368F14E30E760048D0BF /* Foundation.framework */,
+				9D21369114E30E760048D0BF /* CoreGraphics.framework */,
+				9D2136A514E30E760048D0BF /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D21369314E30E760048D0BF /* GuerraGalaxias */ = {
+			isa = PBXGroup;
+			children = (
+				9D21369C14E30E760048D0BF /* AppDelegate.h */,
+				9D21369D14E30E760048D0BF /* AppDelegate.m */,
+				9D21369414E30E760048D0BF /* Supporting Files */,
+			);
+			path = GuerraGalaxias;
+			sourceTree = "<group>";
+		};
+		9D21369414E30E760048D0BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D21369514E30E760048D0BF /* GuerraGalaxias-Info.plist */,
+				9D21369614E30E760048D0BF /* InfoPlist.strings */,
+				9D21369914E30E760048D0BF /* main.m */,
+				9D21369B14E30E760048D0BF /* GuerraGalaxias-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D2136AB14E30E760048D0BF /* GuerraGalaxiasTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D2136B114E30E760048D0BF /* GuerraGalaxiasTests.h */,
+				9D2136B214E30E760048D0BF /* GuerraGalaxiasTests.m */,
+				9D2136AC14E30E760048D0BF /* Supporting Files */,
+			);
+			path = GuerraGalaxiasTests;
+			sourceTree = "<group>";
+		};
+		9D2136AC14E30E760048D0BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D2136AD14E30E760048D0BF /* GuerraGalaxiasTests-Info.plist */,
+				9D2136AE14E30E760048D0BF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D21368814E30E760048D0BF /* GuerraGalaxias */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D2136B614E30E760048D0BF /* Build configuration list for PBXNativeTarget "GuerraGalaxias" */;
+			buildPhases = (
+				9D21368514E30E760048D0BF /* Sources */,
+				9D21368614E30E760048D0BF /* Frameworks */,
+				9D21368714E30E760048D0BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuerraGalaxias;
+			productName = GuerraGalaxias;
+			productReference = 9D21368914E30E760048D0BF /* GuerraGalaxias.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D2136A314E30E760048D0BF /* GuerraGalaxiasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D2136B914E30E760048D0BF /* Build configuration list for PBXNativeTarget "GuerraGalaxiasTests" */;
+			buildPhases = (
+				9D21369F14E30E760048D0BF /* Sources */,
+				9D2136A014E30E760048D0BF /* Frameworks */,
+				9D2136A114E30E760048D0BF /* Resources */,
+				9D2136A214E30E760048D0BF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D2136AA14E30E760048D0BF /* PBXTargetDependency */,
+			);
+			name = GuerraGalaxiasTests;
+			productName = GuerraGalaxiasTests;
+			productReference = 9D2136A414E30E760048D0BF /* GuerraGalaxiasTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D21368014E30E760048D0BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "LUCE INNOVATIVE TECHNOLOGIES";
+			};
+			buildConfigurationList = 9D21368314E30E760048D0BF /* Build configuration list for PBXProject "GuerraGalaxias" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9D21367E14E30E760048D0BF;
+			productRefGroup = 9D21368A14E30E760048D0BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D21368814E30E760048D0BF /* GuerraGalaxias */,
+				9D2136A314E30E760048D0BF /* GuerraGalaxiasTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D21368714E30E760048D0BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D21369814E30E760048D0BF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D2136A114E30E760048D0BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2136B014E30E760048D0BF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9D2136A214E30E760048D0BF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D21368514E30E760048D0BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D21369A14E30E760048D0BF /* main.m in Sources */,
+				9D21369E14E30E760048D0BF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D21369F14E30E760048D0BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2136B314E30E760048D0BF /* GuerraGalaxiasTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D2136AA14E30E760048D0BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D21368814E30E760048D0BF /* GuerraGalaxias */;
+			targetProxy = 9D2136A914E30E760048D0BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D21369614E30E760048D0BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D21369714E30E760048D0BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9D2136AE14E30E760048D0BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D2136AF14E30E760048D0BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D2136B414E30E760048D0BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9D2136B514E30E760048D0BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D2136B714E30E760048D0BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuerraGalaxias/GuerraGalaxias-Prefix.pch";
+				INFOPLIST_FILE = "GuerraGalaxias/GuerraGalaxias-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D2136B814E30E760048D0BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuerraGalaxias/GuerraGalaxias-Prefix.pch";
+				INFOPLIST_FILE = "GuerraGalaxias/GuerraGalaxias-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9D2136BA14E30E760048D0BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GuerraGalaxias.app/GuerraGalaxias";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuerraGalaxias/GuerraGalaxias-Prefix.pch";
+				INFOPLIST_FILE = "GuerraGalaxiasTests/GuerraGalaxiasTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9D2136BB14E30E760048D0BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GuerraGalaxias.app/GuerraGalaxias";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuerraGalaxias/GuerraGalaxias-Prefix.pch";
+				INFOPLIST_FILE = "GuerraGalaxiasTests/GuerraGalaxiasTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D21368314E30E760048D0BF /* Build configuration list for PBXProject "GuerraGalaxias" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D2136B414E30E760048D0BF /* Debug */,
+				9D2136B514E30E760048D0BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D2136B614E30E760048D0BF /* Build configuration list for PBXNativeTarget "GuerraGalaxias" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D2136B714E30E760048D0BF /* Debug */,
+				9D2136B814E30E760048D0BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9D2136B914E30E760048D0BF /* Build configuration list for PBXNativeTarget "GuerraGalaxiasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D2136BA14E30E760048D0BF /* Debug */,
+				9D2136BB14E30E760048D0BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D21368014E30E760048D0BF /* Project object */;
+}
