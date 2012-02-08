@@ -18,6 +18,14 @@
 		9D2136A814E30E760048D0BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D21368F14E30E760048D0BF /* Foundation.framework */; };
 		9D2136B014E30E760048D0BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D2136AE14E30E760048D0BF /* InfoPlist.strings */; };
 		9D2136B314E30E760048D0BF /* GuerraGalaxiasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2136B214E30E760048D0BF /* GuerraGalaxiasTests.m */; };
+		9D2136BE14E30F690048D0BF /* Jugador.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2136BD14E30F690048D0BF /* Jugador.m */; };
+		9D2136C114E311BD0048D0BF /* Enemigo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2136C014E311BD0048D0BF /* Enemigo.m */; };
+		9D2136C414E311E80048D0BF /* Equipo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2136C314E311E80048D0BF /* Equipo.m */; };
+		9D2136C714E312490048D0BF /* Wookie.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2136C614E312490048D0BF /* Wookie.m */; };
+		9D2136CA14E312540048D0BF /* Humano.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2136C914E312540048D0BF /* Humano.m */; };
+		9D2136CD14E3125D0048D0BF /* Droid.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2136CC14E3125D0048D0BF /* Droid.m */; };
+		9D2136D014E312940048D0BF /* StormTrooper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2136CF14E312940048D0BF /* StormTrooper.m */; };
+		9D2136D314E312AA0048D0BF /* Sith.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2136D214E312AA0048D0BF /* Sith.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +43,34 @@
 		9D21368D14E30E760048D0BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9D21368F14E30E760048D0BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9D21369114E30E760048D0BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9D21369514E30E760048D0BF /* GuerraGalaxias-Info.plist */ = {isa = PBXFileReference; path = "GuerraGalaxias-Info.plist"; sourceTree = "<group>"; };
+		9D21369514E30E760048D0BF /* GuerraGalaxias-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuerraGalaxias-Info.plist"; sourceTree = "<group>"; };
 		9D21369714E30E760048D0BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9D21369914E30E760048D0BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9D21369B14E30E760048D0BF /* GuerraGalaxias-Prefix.pch */ = {isa = PBXFileReference; path = "GuerraGalaxias-Prefix.pch"; sourceTree = "<group>"; };
-		9D21369C14E30E760048D0BF /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D21369B14E30E760048D0BF /* GuerraGalaxias-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GuerraGalaxias-Prefix.pch"; sourceTree = "<group>"; };
+		9D21369C14E30E760048D0BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9D21369D14E30E760048D0BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9D2136A414E30E760048D0BF /* GuerraGalaxiasTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuerraGalaxiasTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D2136A514E30E760048D0BF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		9D2136AD14E30E760048D0BF /* GuerraGalaxiasTests-Info.plist */ = {isa = PBXFileReference; path = "GuerraGalaxiasTests-Info.plist"; sourceTree = "<group>"; };
+		9D2136AD14E30E760048D0BF /* GuerraGalaxiasTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuerraGalaxiasTests-Info.plist"; sourceTree = "<group>"; };
 		9D2136AF14E30E760048D0BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9D2136B114E30E760048D0BF /* GuerraGalaxiasTests.h */ = {isa = PBXFileReference; path = GuerraGalaxiasTests.h; sourceTree = "<group>"; };
+		9D2136B114E30E760048D0BF /* GuerraGalaxiasTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuerraGalaxiasTests.h; sourceTree = "<group>"; };
 		9D2136B214E30E760048D0BF /* GuerraGalaxiasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuerraGalaxiasTests.m; sourceTree = "<group>"; };
+		9D2136BC14E30F690048D0BF /* Jugador.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jugador.h; sourceTree = "<group>"; };
+		9D2136BD14E30F690048D0BF /* Jugador.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jugador.m; sourceTree = "<group>"; };
+		9D2136BF14E311BD0048D0BF /* Enemigo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enemigo.h; sourceTree = "<group>"; };
+		9D2136C014E311BD0048D0BF /* Enemigo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Enemigo.m; sourceTree = "<group>"; };
+		9D2136C214E311E80048D0BF /* Equipo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Equipo.h; sourceTree = "<group>"; };
+		9D2136C314E311E80048D0BF /* Equipo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Equipo.m; sourceTree = "<group>"; };
+		9D2136C514E312490048D0BF /* Wookie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wookie.h; sourceTree = "<group>"; };
+		9D2136C614E312490048D0BF /* Wookie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wookie.m; sourceTree = "<group>"; };
+		9D2136C814E312540048D0BF /* Humano.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Humano.h; sourceTree = "<group>"; };
+		9D2136C914E312540048D0BF /* Humano.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Humano.m; sourceTree = "<group>"; };
+		9D2136CB14E3125D0048D0BF /* Droid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Droid.h; sourceTree = "<group>"; };
+		9D2136CC14E3125D0048D0BF /* Droid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Droid.m; sourceTree = "<group>"; };
+		9D2136CE14E312940048D0BF /* StormTrooper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StormTrooper.h; sourceTree = "<group>"; };
+		9D2136CF14E312940048D0BF /* StormTrooper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StormTrooper.m; sourceTree = "<group>"; };
+		9D2136D114E312A90048D0BF /* Sith.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sith.h; sourceTree = "<group>"; };
+		9D2136D214E312AA0048D0BF /* Sith.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sith.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +131,22 @@
 			isa = PBXGroup;
 			children = (
 				9D21369C14E30E760048D0BF /* AppDelegate.h */,
+				9D2136BC14E30F690048D0BF /* Jugador.h */,
+				9D2136BD14E30F690048D0BF /* Jugador.m */,
+				9D2136C514E312490048D0BF /* Wookie.h */,
+				9D2136C614E312490048D0BF /* Wookie.m */,
+				9D2136C814E312540048D0BF /* Humano.h */,
+				9D2136C914E312540048D0BF /* Humano.m */,
+				9D2136CB14E3125D0048D0BF /* Droid.h */,
+				9D2136CC14E3125D0048D0BF /* Droid.m */,
+				9D2136BF14E311BD0048D0BF /* Enemigo.h */,
+				9D2136C014E311BD0048D0BF /* Enemigo.m */,
+				9D2136CE14E312940048D0BF /* StormTrooper.h */,
+				9D2136CF14E312940048D0BF /* StormTrooper.m */,
+				9D2136D114E312A90048D0BF /* Sith.h */,
+				9D2136D214E312AA0048D0BF /* Sith.m */,
+				9D2136C214E311E80048D0BF /* Equipo.h */,
+				9D2136C314E311E80048D0BF /* Equipo.m */,
 				9D21369D14E30E760048D0BF /* AppDelegate.m */,
 				9D21369414E30E760048D0BF /* Supporting Files */,
 			);
@@ -189,7 +229,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
-				ORGANIZATIONNAME = "LUCE INNOVATIVE TECHNOLOGIES";
+				ORGANIZATIONNAME = "Alberto Lobo Inc";
 			};
 			buildConfigurationList = 9D21368314E30E760048D0BF /* Build configuration list for PBXProject "GuerraGalaxias" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -251,6 +291,14 @@
 			files = (
 				9D21369A14E30E760048D0BF /* main.m in Sources */,
 				9D21369E14E30E760048D0BF /* AppDelegate.m in Sources */,
+				9D2136BE14E30F690048D0BF /* Jugador.m in Sources */,
+				9D2136C114E311BD0048D0BF /* Enemigo.m in Sources */,
+				9D2136C414E311E80048D0BF /* Equipo.m in Sources */,
+				9D2136C714E312490048D0BF /* Wookie.m in Sources */,
+				9D2136CA14E312540048D0BF /* Humano.m in Sources */,
+				9D2136CD14E3125D0048D0BF /* Droid.m in Sources */,
+				9D2136D014E312940048D0BF /* StormTrooper.m in Sources */,
+				9D2136D314E312AA0048D0BF /* Sith.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +344,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv7,
+					armv6,
+				);
 				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -312,7 +363,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -321,7 +372,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv7,
+					armv6,
+				);
 				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
@@ -330,7 +384,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
