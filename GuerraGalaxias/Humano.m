@@ -8,6 +8,10 @@
 
 #import "Humano.h"
 
+@interface Humano()
+- (NSString*)razaToString:(HumanoRaza)raza;
+@end
+
 @implementation Humano
 
 @synthesize razaHumano;
@@ -24,17 +28,22 @@
 
 - (void)saluda:(Jugador*)otroJugador{
     [super saluda:otroJugador];
-    
-    switch ([self razaHumano]) {
+    NSLog(@"Mi Raza es: %@", [self razaToString:[self razaHumano]]);
+}
+
+#pragma mark - Metodos Privados
+- (NSString*)razaToString:(HumanoRaza)raza{
+    switch (raza) {
         case HumanoRazaComun:
-            NSLog(@"Mi raza es Humano");
+            return @"HumanoRazaComun";
             break;
         case HumanoRazaJedi:
-            NSLog(@"Mi raza es Jedi");
+            return @"HumanoRazaJedi";
             break;            
         default:
             break;
     }
 }
+
 
 @end
