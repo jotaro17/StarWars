@@ -7,6 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "Wookie.h"
+#import "Humano.h"
+#import "Droid.h"
+#import "StormTrooper.h"
+#import "Sith.h"
+#import "Equipo.h"
 
 @implementation AppDelegate
 
@@ -18,6 +24,29 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    
+    Wookie* chewbacca = [[Wookie alloc] initWithName:@"Chewbacca"];    
+    Humano* hanSolo = [[Humano alloc] initWithName:@"Han Solo" andRaza:HumanoRazaComun];
+    Droid* c3PO = [[Droid alloc] initWithName:@"C3PO"];
+    
+    Equipo* laAlianza = [[Equipo alloc] initWithName:@"La alianza"];
+    [laAlianza addIntegrante:chewbacca];
+    [laAlianza addIntegrante:hanSolo];
+    [laAlianza addIntegrante:c3PO];
+
+    
+    StormTrooper* bobaFett = [[StormTrooper alloc] initWithName:@"Boba Fett"];
+    Sith* vader = [[Sith alloc] initWithName:@"Darth Vader"];
+    
+    Equipo* elImperio = [[Equipo alloc] initWithName:@"El Imperio"];
+    [elImperio addIntegrante:bobaFett];
+    [elImperio addIntegrante:vader];
+
+    //LUCHAAAAAAAAA
+    NSLog(@"\n***********************Empieza la lucha***********************");
+    [laAlianza peleaContra:elImperio];
+    
     return YES;
 }
 
