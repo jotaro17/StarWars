@@ -8,6 +8,15 @@
 
 #import "Jugador.h"
 
+typedef enum {
+    HumanoRazaComun,
+    HumanoRazaJedi
+} HumanoRaza;
+
 @interface Humano : Jugador
+
+@property (nonatomic) HumanoRaza razaHumano;
+
+- (id)initWithName:(NSString *)name andRaza:(HumanoRaza)raza;
 
 @end
