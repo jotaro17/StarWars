@@ -7,13 +7,14 @@
 //
 
 #import "Jugador.h"
+#import "Pelear.h"
 
 typedef enum {
     HumanoRazaComun,
     HumanoRazaJedi
 } HumanoRaza;
 
-@interface Humano : Jugador
+@interface Humano : Jugador <Pelear>
 
 @property (nonatomic) HumanoRaza razaHumano;
 

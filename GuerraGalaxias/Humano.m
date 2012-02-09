@@ -45,5 +45,10 @@
     }
 }
 
+#pragma mark - Metodos Protocolo Pelear
+- (void)golpea{
+    NSLog(@"El Humano %@ golpea!",[self name]);
+}
+
 
 @end

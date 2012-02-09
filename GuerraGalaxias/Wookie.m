@@ -10,4 +10,9 @@
 
 @implementation Wookie
 
+#pragma mark - Metodos Protocolo Pelear
+- (void)golpea{
+    NSLog(@"El Wookie %@ golpea!",[self name]);
+}
+
 @end

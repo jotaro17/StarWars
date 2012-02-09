@@ -15,5 +15,6 @@
 
 - (id)initWithName:(NSString *)name;
 - (void)addIntegrante:(id)newIntegrante;
+- (void)peleaContra:(Equipo*)equipo;
 
 @end

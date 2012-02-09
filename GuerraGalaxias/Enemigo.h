@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Pelear.h"
 
-@interface Enemigo : NSObject
+@interface Enemigo : NSObject <Pelear>
 
 @property (nonatomic, strong) NSString *name;
 

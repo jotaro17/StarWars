@@ -38,4 +38,18 @@
     }
 }
 
+- (void)peleaContra:(Equipo*)equipo{
+    //Primero pegan los malos
+    for (id integrante in [equipo integrantes]) {
+        [integrante golpea];
+    }
+    //Luego Pegan los buenos y ganan!
+    for (id integrante in [self integrantes]) {
+        if ([integrante respondsToSelector:@selector(golpea)]) {
+            [integrante golpea];
+        }
+    }
+    NSLog(@"Ganan los buenos!!!");
+}
+
 @end

@@ -28,5 +28,10 @@
     NSLog(@"Preparaos, yo sere el dueño de la Galaxia!!!");
 }
 
+#pragma mark - Metodos Protocolo Pelear
+- (void)golpea{
+    NSLog(@"El enemigo %@ golpea!",[self name]);
+}
+
 
 @end
